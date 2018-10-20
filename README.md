@@ -15,4 +15,18 @@ This is a Tennis Scoring App.
 ```bash
 npm install
 ```
+## Run the app
 
+```bash
+node index.js
+```
+## Rules
+
+```bash
+tennisGame.pointWonBy('player 1');
+tennisGame.pointWonBy('player 1');
+tennisGame.pointWonBy('player 1');
+tennisGame.pointWonBy('player 2');
+tennisGame.pointWonBy('player 2');
+tennisGame.pointWonBy('player 1');
+```
