@@ -1,0 +1,23 @@
+{
+  "name": "tennis-game-score-app",
+  "version": "1.0.0",
+  "description": "Tennis Scoring App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "//git@github.com/hunainaslam/tennis-score-app.git"
+  },
+  "author": "hunainaslam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hunainaslam/tennis-score-app/issues"
+  },
+  "homepage": "https://github.com/hunainaslam/tennis-score-app#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "nodemon": "^1.18.4"
+  }
+}
