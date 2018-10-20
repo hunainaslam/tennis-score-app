@@ -53,7 +53,7 @@ class Game {
     console.log(player.playerName,':',player.score);
 
     if(player1.score == 40 && player2.score == 40) {
-      console.log('deuce');
+      console.log('Deuce');
     }
   }
 }
@@ -61,12 +61,12 @@ class Game {
 const p1 = new Player('player 1');
 const p2 = new Player('player 2');
 
-const game = new Game([p1, p2]);
-game.matchStart();
+const tennisGame = new Game([p1, p2]);
+tennisGame.matchStart();
 
-game.pointWonBy(p1);
-game.pointWonBy(p1);
-game.pointWonBy(p1);
-game.pointWonBy(p2);
-game.pointWonBy(p2);
-game.pointWonBy(p1);
+tennisGame.pointWonBy(p1);
+tennisGame.pointWonBy(p1);
+tennisGame.pointWonBy(p1);
+tennisGame.pointWonBy(p2);
+tennisGame.pointWonBy(p2);
+tennisGame.pointWonBy(p1);
